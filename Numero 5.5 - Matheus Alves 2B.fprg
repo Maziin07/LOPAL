@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 11:43:48 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjI5OzIwMjQtMDItMDY7IjA5OjM4OjU2ICI7MjI2OA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjI5OzIwMjQtMDItMDY7IjExOjQzOjQ4ICI7MzsyMzY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Real" array="False" size=""/>
+            <declare name="maior" type="Real" array="False" size=""/>
+            <declare name="menor" type="Real" array="False" size=""/>
+            <declare name="Igual" type="Real" array="False" size=""/>
+            <output expression="&quot; Escreva o numero que voc&#234; deseja &quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero != 5.5">
+                <then>
+                    <if expression="numero &gt; 5.5">
+                        <then>
+                            <output expression="&quot; O numero &#233; maior que 5.5&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot; O numero &#233; menor que 5.5 &quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot; O numero &#233; igual a 5.5 &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
