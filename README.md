@@ -1,2 +1,2 @@
 # LPA
-Neymar Junior - Linguagem de Programação e Algoritimo
+Linguagem de Programação e Algoritimo
