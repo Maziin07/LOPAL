@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 02:03:41 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjI5OzIwMjQtMDItMDY7IjEyOjU5OjUzICI7MjI2Mg=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjI5OzIwMjQtMDItMDY7IjAyOjAzOjQxICI7MTsyMzU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pedido" type="String" array="False" size=""/>
+            <declare name="sim" type="String" array="False" size=""/>
+            <output expression="&quot; Qual &#233; o seu pedido? &quot;" newline="True"/>
+            <output expression="&quot; Temos: X-tudo X-Salada X-Bacon Coca Cola&quot;" newline="True"/>
+            <input variable="pedido"/>
+            <if expression="pedido==&quot;X-tudo&quot;">
+                <then>
+                    <output expression="&quot; O pre&#231;o &#233; 20 reais &quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pedido==&quot;X-bacon&quot;">
+                <then>
+                    <output expression="&quot; O pre&#231;o &#233; 15 reais &quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pedido==&quot;X-salada&quot;">
+                <then>
+                    <output expression="&quot; O pre&#231;o &#233; 14 reais &quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="pedido==&quot;Coca Cola&quot;">
+                <then>
+                    <output expression="&quot; O pre&#231;o &#233; 6 reais &quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Posso finalizar sua compra?&quot;" newline="True"/>
+            <input variable="sim"/>
+            <output expression="&quot;Seu pedido ser&#225; entregue&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
