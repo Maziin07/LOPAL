@@ -1,6 +1,8 @@
 # Lógica de Programação e Algoritimos
 Lógica de Programação e Algoritimos.
 
+A matéria de Linguagem de Programação e Algoritmos é fundamental para qualquer pessoa interessada em entrar no mundo da programação e da computação. Ela serve como uma introdução essencial aos conceitos básicos que sustentam a ciência da computação e a arte da programação. Nessa disciplina, os alunos aprendem os fundamentos das linguagens de programação, que são essencialmente as ferramentas usadas para dar instruções aos computadores. Isso pode incluir linguagens populares como Python, Java, C++, entre outras. Os alunos também são expostos aos princípios dos algoritmos, que são sequências de passos definidos para resolver problemas ou realizar tarefas específicas.
+
 Variaveis:
 Variáveis são espaços na memória que armazenam valores que podem ser modificados durante a execução de um programa. Em programação, variáveis são utilizadas para guardar dados temporários e trabalhar com esses dados de forma dinâmica. Variável é o nome utilizado para definir um ou mais valores que são manipulados pelos programas durante a sua operação. O nome “variável” é utilizado por ser um tipo de conteúdo que pode apresentar diferentes valores enquanto o sistema está em execução.
 
