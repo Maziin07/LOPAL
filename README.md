@@ -28,6 +28,12 @@ Os operadores lógicos são elementos fundamentais da linguagem de programação
 Operadores Condicionais:
 As estruturas condicionais permitem que um programa execute diferentes comandos de acordo com as condições estabelecidas. Elas estão presentes em diversas linguagens de programação e todo profissional da área precisa saber como utilizá-las. Frases condicionais são declarações de uma situação “se-então” ou “a menos que-então” (embora “então” nem sempre seja explicitamente usado), ou de uma probabilidade.
 
+Condicionais Simples: São estruturas de decisão que avaliam uma única condição e executam um bloco de código se essa condição for verdadeira. Se a condição for falsa, o bloco de código não é executado. Em muitas linguagens de programação, a estrutura básica para uma condicional simples é o "if".
+
+Condicionais Compostas: São estruturas de decisão que avaliam duas ou mais condições e executam diferentes blocos de código com base nas condições avaliadas. Geralmente, é utilizado um "else" para cobrir o caso contrário das condições avaliadas no "if".
+
+Condicionais Encadeadas: São estruturas de decisão que incluem várias condicionais compostas dentro de outras condicionais compostas. Isso permite que diferentes condições sejam avaliadas de forma encadeada e executem diferentes blocos de código com base nas condições avaliadas.
+
 Laços de repetição:
 Os laços de repetição são muito úteis e muito utilizados, pois possibilitam a facilidade de repetir um certo trecho de programa por um determinado número de vezes. O número de vezes que um laço pode repetir um trecho de programa pode ser previamente conhecido ou não, vai depender da característica de execução do laço. Podem ser de três tipos: Repetição com testes no início; □ Repetição com testes no fim; □ Repetição com variável de controle. lógica) for VERDADEIRA. expressão for falsa, não executa o bloco NENHUMA vez.
 
