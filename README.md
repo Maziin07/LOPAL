@@ -37,6 +37,10 @@ Condicionais Encadeadas: São estruturas de decisão que incluem várias condici
 Laços de repetição:
 Os laços de repetição são muito úteis e muito utilizados, pois possibilitam a facilidade de repetir um certo trecho de programa por um determinado número de vezes. O número de vezes que um laço pode repetir um trecho de programa pode ser previamente conhecido ou não, vai depender da característica de execução do laço. Podem ser de três tipos: Repetição com testes no início; □ Repetição com testes no fim; □ Repetição com variável de controle. lógica) for VERDADEIRA. expressão for falsa, não executa o bloco NENHUMA vez.
 
+ Contador (for): O laço "for" é utilizado quando se sabe antecipadamente quantas vezes o bloco de código precisa ser repetido. Ele itera sobre uma sequência de elementos (como uma lista, tupla, string, etc.) e executa o bloco de código uma vez para cada elemento na sequência.
+
+ Condicional (while): O laço "while" é utilizado quando não se sabe antecipadamente quantas vezes o bloco de código precisa ser repetido, mas existe uma condição que deve ser verdadeira para continuar a repetição. O bloco de código será repetido enquanto a condição especificada for verdadeira.
+
 Contador:
 Um contador é um tipo de acumulador cujo o valor aumenta, ou diminui, de 1 em 1. - Utilização de expressões lógicas que podem ser verdadeiras ou falsas para controle de fluxo. Um contador é um tipo de acumulador cujo o valor aumenta, ou diminui, de 1 em 1. - Utilização de expressões lógicas que podem ser verdadeiras ou falsas para controle de fluxo. - Expressões condicionais ajudam a tomar decisões. A diferença entre os contadores e os acumuladores é que o contador recebe ele mesmo mais 1 (ou algum valor constante), enquanto o acumulador recebe ele mesmo mais uma variável. O programa 4.5 apresenta um exemplo de uso dos contadores e acumuladores.
 
